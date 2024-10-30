@@ -11,6 +11,6 @@ class Home extends BaseController
     
     public function login(): string 
     {
-        return view('login');
+        return view('pages/login');
     }
 }
