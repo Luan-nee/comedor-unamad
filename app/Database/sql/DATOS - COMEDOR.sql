@@ -49,11 +49,11 @@ select * from estudiante;
 
 INSERT INTO empleado (nombre, apellidos, tipo, dni, cargo, usuariocol) 
 VALUES 
-('Carlos', 'Sánchez', 1, '45678901', 'Cocinero Principal', 'csanchez'),
-('Lucía', 'González', 2, '78901234', 'Ayudante de Cocina', 'lgonzalez'),
-('Pedro', 'Rivas', 1, '23456780', 'Jefe de Cocina', 'privas'),
-('Ana', 'Fernández', 2, '89012345', 'Encargada de Limpieza', 'afernandez'),
-('Jorge', 'Pérez', 1, '12345679', 'Supervisor de Turno', 'jperez');
+('Carlos', 'Sánchez', 1, '45678901', 'Cocinero Principal'),
+('Lucía', 'González', 2, '78901234', 'Ayudante de Cocina'),
+('Pedro', 'Rivas', 1, '23456780', 'Jefe de Cocina'),
+('Ana', 'Fernández', 2, '89012345', 'Encargada de Limpieza'),
+('Jorge', 'Pérez', 1, '12345679', 'Supervisor de Turno');
 
 INSERT INTO usuario (usuario, clave, estado, empleado_id)
 VALUES

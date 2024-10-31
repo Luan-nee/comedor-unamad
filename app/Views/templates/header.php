@@ -13,7 +13,7 @@
 <body class="GRID-STYLE">
 
 <!-- HEADER -->
-<header id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+<header id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-gray-100 ">
   <div class="container-fluid">
   
     <!-- Brand -->
@@ -21,111 +21,14 @@
       <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="25" alt="MDB Logo"
         loading="lazy" />
     </a>
+
     <!-- Search form -->
     <form class="d-md-flex input-group w-auto my-auto">
       <input autocomplete="off" type="search" class="form-control rounded" placeholder='Search (ctrl + "/" to focus)' style="min-width: 225px;" />
     </form>
-  
-    <!-- Right links -->
-    <ul class="navbar-nav ms-auto d-flex flex-row">
-      <!-- Notification dropdown -->
-      <li class="nav-item dropdown">
-        <a data-mdb-dropdown-init class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
-          role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bell"></i>
-          <span class="badge rounded-pill badge-notification bg-danger">1</span>
-        </a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
-      </li>
-  
-      <!-- Icon -->
-      <li class="nav-item">
-        <a class="nav-link me-3 me-lg-0" href="#">
-          <i class="fas fa-fill-drip"></i>
-        </a>
-      </li>
-      <!-- Icon -->
-      <li class="nav-item me-3 me-lg-0">
-        <a class="nav-link" href="#">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-  
-      <!-- Icon dropdown -->
-      <li class="nav-item dropdown">
-        <a data-mdb-dropdown-init class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown"
-          role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-          <i class="united kingdom flag m-0"></i>
-        </a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-          <li>
-            <a class="dropdown-item" href="#"><i class="united kingdom flag"></i>English
-              <i class="fa fa-check text-success ms-2"></i></a>
-          </li>
-          <li>
-            <hr class="dropdown-divider" />
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
-          </li>
-        </ul>
-      </li>
-  
-      <!-- Avatar -->
-      <li class="nav-item dropdown">
-        <a data-mdb-dropdown-init class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
-          id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
-            height="22" alt="Avatar" loading="lazy" />
-        </a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">My profile</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Settings</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Logout</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
   </div>
 </header>
 <!-- HEADER -->
-  
 
 <!-- BARRA LATERAL DE NAVEGACIÓN  -->
 <nav id="sidebarMenu" class="d-lg-block sidebar bg-white w-auto">
@@ -163,8 +66,3 @@
 
 <!-- CONTENIDO DE LA PAGINA -->
 <section id="contentWeb">
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos fuga explicabo exercitationem, eveniet quam corrupti libero veniam blanditiis soluta vel corporis iusto ipsum consequuntur quod excepturi, accusantium fugit laudantium autem. Magni nisi omnis quod dicta doloribus itaque aperiam hic, et, velit asperiores voluptatem vel ratione quidem eos ad! Nisi.
-  </p>
-</section>
-<!-- CONTENIDO DE LA PAGINA -->

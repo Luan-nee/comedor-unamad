@@ -108,7 +108,6 @@ CREATE TABLE empleado (
   tipo int NOT NULL,
   dni VARCHAR(8) NOT NULL,
   cargo VARCHAR(100) NOT NULL,
-  usuariocol VARCHAR(45) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (tipo) REFERENCES rolEmpleado(id)
   ON DELETE CASCADE
