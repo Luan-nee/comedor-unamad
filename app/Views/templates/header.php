@@ -6,31 +6,26 @@
   <title>PAGINA PRINCIPAL</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- estilos personalizados -->
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body class="">
+<body class="GRID-STYLE">
 
-<!-- Navbar -->
+<!-- HEADER -->
 <header id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white">
-  <!-- Container wrapper -->
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#sidebarMenu"
-      aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-
+  
     <!-- Brand -->
     <a class="navbar-brand" href="#">
       <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="25" alt="MDB Logo"
         loading="lazy" />
     </a>
     <!-- Search form -->
-    <form class="d-none d-md-flex input-group w-auto my-auto">
-      <input autocomplete="off" type="search" class="form-control rounded"
-        placeholder='Search (ctrl + "/" to focus)' style="min-width: 225px;" />
-      <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+    <form class="d-md-flex input-group w-auto my-auto">
+      <input autocomplete="off" type="search" class="form-control rounded" placeholder='Search (ctrl + "/" to focus)' style="min-width: 225px;" />
     </form>
-
+  
     <!-- Right links -->
     <ul class="navbar-nav ms-auto d-flex flex-row">
       <!-- Notification dropdown -->
@@ -52,7 +47,7 @@
           </li>
         </ul>
       </li>
-
+  
       <!-- Icon -->
       <li class="nav-item">
         <a class="nav-link me-3 me-lg-0" href="#">
@@ -65,7 +60,7 @@
           <i class="fab fa-github"></i>
         </a>
       </li>
-
+  
       <!-- Icon dropdown -->
       <li class="nav-item dropdown">
         <a data-mdb-dropdown-init class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown"
@@ -106,7 +101,7 @@
           </li>
         </ul>
       </li>
-
+  
       <!-- Avatar -->
       <li class="nav-item dropdown">
         <a data-mdb-dropdown-init class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
@@ -128,53 +123,48 @@
       </li>
     </ul>
   </div>
-
-  <!-- Container wrapper -->
 </header>
-<!-- Navbar -->
-
-<!--Main Navigation-->
-<section class="d-flex flex-row h-auto">
-  <!-- Sidebar -->
-  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white w-auto">
-    <div class="position-sticky">
-      <div class="list-group list-group-flush text-nowrap">
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-          <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
-          <i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
-          <i class="fas fa-chart-pie fa-fw me-3"></i><span>SEO</span>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-globe fa-fw me-3"></i><span>International</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-building fa-fw me-3"></i><span>Partners</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
-        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-money-bill fa-fw me-3"></i><span>Sales</span></a>
-      </div>
-    </div>
-  </nav>
-  <!-- Sidebar -->
+<!-- HEADER -->
   
-  <!-- contenido de la pagina -->
-  <section>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos fuga explicabo exercitationem, eveniet quam corrupti libero veniam blanditiis soluta vel corporis iusto ipsum consequuntur quod excepturi, accusantium fugit laudantium autem. Magni nisi omnis quod dicta doloribus itaque aperiam hic, et, velit asperiores voluptatem vel ratione quidem eos ad! Nisi.
-    </p>
-  </section>
-  <!-- contenido de la pagina -->
+
+<!-- BARRA LATERAL DE NAVEGACIÓN  -->
+<nav id="sidebarMenu" class="d-lg-block sidebar bg-white w-auto">
+  <div>
+    <div class="list-group list-group-flush text-nowrap">
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
+        <i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+        <i class="fas fa-chart-pie fa-fw me-3"></i><span>SEO</span>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-globe fa-fw me-3"></i><span>International</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-building fa-fw me-3"></i><span>Partners</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+          class="fas fa-money-bill fa-fw me-3"></i><span>Sales</span></a>
+    </div>
+  </div>
+</nav>
+<!-- BARRA LATERAL DE NAVEGACIÓN -->
+
+<!-- CONTENIDO DE LA PAGINA -->
+<section id="contentWeb">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos fuga explicabo exercitationem, eveniet quam corrupti libero veniam blanditiis soluta vel corporis iusto ipsum consequuntur quod excepturi, accusantium fugit laudantium autem. Magni nisi omnis quod dicta doloribus itaque aperiam hic, et, velit asperiores voluptatem vel ratione quidem eos ad! Nisi.
+  </p>
 </section>
-<!--Main Navigation-->
+<!-- CONTENIDO DE LA PAGINA -->
