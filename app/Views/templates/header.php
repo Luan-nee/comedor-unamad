@@ -30,6 +30,7 @@
 </header>
 <!-- HEADER -->
 
+
 <!-- BARRA LATERAL DE NAVEGACIÓN  -->
 <nav id="sidebarMenu" class="d-lg-block sidebar bg-white w-auto">
   <div>
