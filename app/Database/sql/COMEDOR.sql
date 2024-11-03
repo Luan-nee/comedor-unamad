@@ -147,7 +147,7 @@ CREATE TABLE control_adminision (
   control_id INT NOT NULL,
   adminision_id INT NOT NULL,
   fechaEntrada DATETIME NOT NULL DEFAULT GETDATE(),
-  PRIMARY KEY (id),
+  PRIMARY  KEY (id),
   FOREIGN KEY (control_id) REFERENCES control(id)
   ON DELETE CASCADE
   ON UPDATE CASCADE,
