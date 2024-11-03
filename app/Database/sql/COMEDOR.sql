@@ -119,7 +119,7 @@ CREATE TABLE empleado (
 CREATE TABLE usuario (
   id INT IDENTITY(1,1) NOT NULL,
   usuario VARCHAR(100) NOT NULL,
-  clave VARCHAR(500) NOT NULL,
+  clave VARCHAR(225) NOT NULL,
   estado BIT NOT NULL DEFAULT 1,
   empleado_id INT NOT NULL,
   PRIMARY KEY (id),
