@@ -1,11 +1,14 @@
 <?php 
   $db = \Config\Database::connect(); 
   
-  $consulta = $db->query("select * from libro_has_usuario;");
+  /*
+  REALIZANDO UNA CONSULTA A UNA BASE DE DATOS (solo para hacer una prueba) (no descomentar)
+  */
+  // $consulta = $db->query("select * from libro_has_usuario;");
+  // $resultado = $consulta->getResult();
+  // print_r($resultado);
 
-  $resultado = $consulta->getResult();
-
-  print_r($resultado);
+  
 ?>
 
 <div class="container mt-3">
