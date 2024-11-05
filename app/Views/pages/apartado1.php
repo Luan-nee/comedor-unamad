@@ -12,8 +12,8 @@
 ?>
 
 <div class="container mt-3">
-  <h2>Hover Rows</h2>
-  <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+  <h2>Apartado 1</h2>
+  <p>Nos encontramos en el apartado 1:</p>            
   <table class="table table-hover">
     <thead>
       <tr>

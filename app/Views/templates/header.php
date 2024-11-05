@@ -35,31 +35,31 @@
 <nav id="sidebarMenu" class="d-lg-block sidebar bg-white w-auto">
   <div>
     <div class="list-group list-group-flush text-nowrap">
-      <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple active" aria-current="true">
+        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Apartado 1</span>
       </a>
-      <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
-        <i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
+      <a href="#" class="list-group-item list-group-item-action py-2 ripple ">
+        <i class="fas fa-chart-area fa-fw me-3"></i><span>Apartado 2</span>
       </a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
+          class="fas fa-lock fa-fw me-3"></i><span>Apartado 3</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
+          class="fas fa-chart-line fa-fw me-3"></i><span>Apartado 4</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple">
-        <i class="fas fa-chart-pie fa-fw me-3"></i><span>SEO</span>
+        <i class="fas fa-chart-pie fa-fw me-3"></i><span>Apartado 5</span>
       </a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
+          class="fas fa-chart-bar fa-fw me-3"></i><span>Apartado 6</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-globe fa-fw me-3"></i><span>International</span></a>
+          class="fas fa-globe fa-fw me-3"></i><span>Apartado 7</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-building fa-fw me-3"></i><span>Partners</span></a>
+          class="fas fa-building fa-fw me-3"></i><span>Apartado 8</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+          class="fas fa-calendar fa-fw me-3"></i><span>Apartado 9</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
+          class="fas fa-users fa-fw me-3"></i><span>Apartado 10</span></a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-          class="fas fa-money-bill fa-fw me-3"></i><span>Sales</span></a>
+          class="fas fa-money-bill fa-fw me-3"></i><span>Apartado 11</span></a>
     </div>
   </div>
 </nav>
