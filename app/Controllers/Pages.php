@@ -7,7 +7,12 @@ use CodeIgniter\Exceptions\PageNotFoundException;
 class Pages extends BaseController{
   public function index(){
     return view('templates/header')
-      . view('pages/apartado1')
+      . view('pages/registro-postulante')
+      . view('templates/footer');
+  }
+  public function asistencia(){
+    return view('templates/header')
+      . view('pages/asistencia')
       . view('templates/footer');
   }
 }

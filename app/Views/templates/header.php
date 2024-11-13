@@ -35,11 +35,11 @@
 <nav id="sidebarMenu" class="d-lg-block sidebar bg-white w-auto">
   <div>
     <div class="list-group list-group-flush text-nowrap">
-      <a href="#" class="list-group-item list-group-item-action py-2 ripple active" aria-current="true">
-        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Apartado 1</span>
+      <a href="registro-postulante" class="list-group-item list-group-item-action py-2 ripple active" aria-current="true">
+        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Registra Postulante</span>
       </a>
-      <a href="#" class="list-group-item list-group-item-action py-2 ripple ">
-        <i class="fas fa-chart-area fa-fw me-3"></i><span>Apartado 2</span>
+      <a href="asistencia" class="list-group-item list-group-item-action py-2 ripple ">
+        <i class="fas fa-chart-area fa-fw me-3"></i><span>Asistencia</span>
       </a>
       <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
           class="fas fa-lock fa-fw me-3"></i><span>Apartado 3</span></a>

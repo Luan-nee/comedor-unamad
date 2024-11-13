@@ -1,19 +1,7 @@
-<?php 
-  $db = \Config\Database::connect(); 
-  
-  /*
-  REALIZANDO UNA CONSULTA A UNA BASE DE DATOS (solo para hacer una prueba) (no descomentar)
-  */
-  // $consulta = $db->query("select * from libro_has_usuario;");
-  // $resultado = $consulta->getResult();
-  // print_r($resultado);
-
-  
-?>
-
+<!-- Tabla de Asistencia -->
 <div class="container mt-3">
-  <h2>Apartado 1</h2>
-  <p>Nos encontramos en el apartado 1:</p>            
+  <h2>Asistencia</h2>
+  <p>En este apartado se toma la asistencia de todos los comensales</p>            
   <table class="table table-hover">
     <thead>
       <tr>

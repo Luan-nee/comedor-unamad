@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-12">
                   <div class="d-grid">
-                    <a href="admin">
+                    <a href="registro-postulante">
                       <button class="btn bsb-btn-xl btn-primary" type="button">Log in now</button>
                     </a>
                   </div>
